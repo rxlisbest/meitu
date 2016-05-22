@@ -1,0 +1,12 @@
+wap:
+    resource: "@WapBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+wap_index:
+    path:      /wap/index
+    defaults:  { _controller: WapBundle:Default:index}
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
